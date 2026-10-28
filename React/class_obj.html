@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        class LED{
+            spex(brand, model, price){
+                this.brand = brand;
+                this.model = model;
+                this.price = price;
+            }
+            
+            display(){
+                console.log("Brand: " + this.brand + ", Model: " + this.model + ", Price: " + this.price);
+
+            }
+        }
+
+        var samsung = new LED();
+        samsung.spex("Samsung", "QLED", 1000);
+        samsung.display();
+        
+        // class LED{
+        //     constructor(brand, model, price){
+        //         this.brand = brand;
+        //         this.model = model;
+        //         this.price = price;
+        //     }
+            
+        //     display(){
+        //         console.log("Brand: " + this.brand + ", Model: " + this.model + ", Price: " + this.price);
+
+        //     }
+        // }
+
+        // var samsung = new LED("Samsung", "QLED", 1000);
+        // samsung.display();
+        
+        
+
+        // var lg = new LED("LG", "OLED", 1500);
+        // lg.display();
+        
+    </script>
+</body>
+</html>
