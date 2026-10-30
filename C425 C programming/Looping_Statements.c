@@ -35,7 +35,7 @@ int main(){
 
     // for(int x = 11; x <= 15; x++){
     //     printf("line of code %d\n", x);
-    //     if(x == 13){
+    //     if(x==13){
     //         break;
     //     }
     // }
@@ -48,11 +48,11 @@ int main(){
     //     printf("line of code %d\n", x);
     // }
 
-    for(int x = 11; x <= 15; x++){
-        if(x % 2 == 0){
-            continue;
-        }
-        printf("line of code %d\n", x);
-    }
+    // for(int x = 11; x <= 15; x++){
+    //     if(x % 2 == 0){
+    //         continue;
+    //     }
+    //     printf("line of code %d\n", x);
+    // }
     return 0;
 }
