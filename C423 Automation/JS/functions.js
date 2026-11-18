@@ -113,7 +113,3 @@ document.write(abc(prompt("enter your name : ")))
 // printNumbers(100,105,103)
 // printNumbers(200,205,203)
 // printNumbers(300,305,303)
-
-
-
-
