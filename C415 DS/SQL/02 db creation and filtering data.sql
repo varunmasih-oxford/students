@@ -53,6 +53,40 @@ total_revenue_busd as Revenue
 from franchises
 WHERE total_revenue_busd <> 52.20; 
 
+select 
+franchise_name as Name,
+total_revenue_busd as Revenue 
+from franchises
+WHERE total_revenue_busd BETWEEN 35 AND 55; 
+
+
+select * from franchises;
+
+select *
+from franchises
+where original_medium <> 'movie';
+
+select *
+from franchises
+where original_medium = 'Movie';
+
+select *
+from franchises
+where BINARY original_medium = 'Movie';
+
+select *
+from franchises
+where original_medium in ('movie','book');
+
+select *
+from franchises
+where original_medium LIKE '%oo%';
+
+select *
+from franchises
+where original_medium = 'book' and total_revenue_busd > 40;
+
+
 
 
 
